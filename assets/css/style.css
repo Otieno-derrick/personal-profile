@@ -13,6 +13,8 @@ body{
     font-size: 25px;
     color: #000000;
     margin-left: 20px;
+    display: flex;
+    gap:0.5em;
 }
 
 .logo2{
@@ -142,6 +144,139 @@ hr{
     background-color: #000000;
     margin-top: 30px;
     font-size: 17px;
-    border-radius: 30px solid #000000;
+    border: 3px solid transparent;
     cursor: pointer;
+    transition: .3s;
+}
+
+.button:hover{
+    border: 5px solid #fcde67;
+    background-color: #000000;
+}
+
+#mk{
+    color: #fcde67;
+    margin-left: 20px;
+    padding-top: 60px;
+}
+
+#png{
+    margin-left: 50px;
+}
+
+.cardding-content {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px #020202, -5px -5px 30px 7px #000000;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#black{
+  color:#fcde67;
+  font-size: 25px;
+
+  
+}
+
+.card .card_image img {
+  width: 360px;
+  height: 600px;
+  border-radius: 45px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px #020202, 
+    -5px -5px 30px 15px #000000;
+}
+
+.title-white {
+  color: #fcde67;
+}
+
+.title-black {
+  color: #fcde67;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    flex-direction: column;
+  }
+}
+
+#mor{
+  color:#fcde67;
+  margin-top: 350;
+  padding-left: 40%;
+}
+.container {
+    width: 100%;
+    display: flex;
+    padding: 0, 20px;
+    user-select: none;
+    /* margin-top: 400px; */
+}
+
+.smooth-slide {
+    height: 80vh;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fcde67;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.smooth-slide h3 {
+    position: absolute;
+    font-size: 10vh;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.active {
+    box-shadow: 0 5px 20px black;
+    flex: 10;
+}
+
+.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+container:hover{
+    transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px #020202, 
+    -5px -5px 30px 15px #000000;
+}
+
+#learn{
+  color: #fcde67;
 }
