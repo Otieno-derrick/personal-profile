@@ -185,7 +185,7 @@ box-shadow: 5px 5px 30px 7px #020202, -5px -5px 30px 7px #000000;
 #black{
   color:#fcde67;
   font-size: 25px;
-
+  
   
 }
 
@@ -238,7 +238,7 @@ box-shadow: 5px 5px 30px 7px #020202, -5px -5px 30px 7px #000000;
     /* margin-top: 400px; */
 }
 
-.smooth-slide {
+.slide {
     height: 80vh;
     border-radius: 25px;
     margin: 10px;
@@ -252,7 +252,7 @@ box-shadow: 5px 5px 30px 7px #020202, -5px -5px 30px 7px #000000;
     transition: all 500ms ease-in-out;
 }
 
-.smooth-slide h3 {
+.slide h3 {
     position: absolute;
     font-size: 10vh;
     bottom: 20px;

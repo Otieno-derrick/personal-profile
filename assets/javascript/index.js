@@ -1,4 +1,4 @@
-let slides = document.querySelectorAll('.smooth-slides');
+let slides = document.querySelectorAll('.slide');
 
 for (let slide of slides) {
     slide.addEventListener('click', () => {
