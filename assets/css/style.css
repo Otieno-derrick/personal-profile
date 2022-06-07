@@ -263,13 +263,14 @@ hr{
     transition: all 500ms ease-in-out;
 }
 
-.slide h3 {
+.#all {
     position: absolute;
-    font-size: 10vh;
-    bottom: 20px;
+    font-size: 15vh;
     left: 20px;
     margin: 0;
-    opacity: 0;
+    color: #f2f700;
+    cursor: pointer;
+    
 }
 
 .active {
